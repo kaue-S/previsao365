@@ -1,0 +1,30 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+body{
+    background-color: rgb(27, 26, 26);
+    margin: 5px;
+}
+
+header{
+    height: 70vh;
+    background-image: linear-gradient(to top, #116cf3, #0086fc, #009cfe, #00b0fb, #12c2f5);
+    border-radius: 0 0 70px 70px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 10px 15px;
+    border: 1px solid white;
+    
+}
+
+.sombra{
+    height: 71.5vh;
+    width: 90vw;
+    border-radius: 0 0 70px 70px;
+    background-color: #116CF3;
+    position: absolute;
+    top: 5px;
+    z-index: 1;
+    left: 5%;
+   
+  
+}
